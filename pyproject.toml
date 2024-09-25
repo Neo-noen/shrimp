@@ -1,0 +1,5 @@
+[project]
+name = "shrimp"
+version = "1.0"
+requires-python= ">= 3.6"
+authors = {name = "Neo"}

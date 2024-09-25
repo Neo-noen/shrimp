@@ -34,3 +34,10 @@ This is how your JSON datastore should be structured after creation.
   "player_data_data": {}
 }
 ```
+
+# Installation
+Run "pip install shrimp" and it *might* just work.
+
+```bash
+pip install shrimp
+```

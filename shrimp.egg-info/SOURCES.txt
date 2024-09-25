@@ -1,0 +1,8 @@
+README.md
+setup.py
+shrimp/__init__.py
+shrimp/shrimp.py
+shrimp.egg-info/PKG-INFO
+shrimp.egg-info/SOURCES.txt
+shrimp.egg-info/dependency_links.txt
+shrimp.egg-info/top_level.txt

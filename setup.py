@@ -5,8 +5,7 @@ setup(
     version='1.0',
     author='Neo',
     description='A lightweight datastore handler.',
-    packages=find_packages(where='src'),
-    package_dir={'':'src'},
+    packages=find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

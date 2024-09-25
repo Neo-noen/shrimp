@@ -30,6 +30,5 @@ This is how your JSON datastore should be structured after creation.
     "last_modified": "2024-09-25 07:46:25.127580"
   },
   "player_data_data": {}
-  }
 }
 ```

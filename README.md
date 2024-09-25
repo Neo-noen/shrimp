@@ -4,12 +4,13 @@ The `shrimp` module is a light weight data store handling module.
 It currently is in it's very early stages of development, therefore might be missing some features or diverse choices of data stores.
 `shrimp` only supports JSON file datastores as of now.
 
-Key features:
+# Key features:
 - Managing multiple datastores at once.
 - Commiting to datastores to avoid corruption during runtime.
 - Basic CRUD and batched operations with "data models". (not really lol)
 - The ability to disable logs, set default data,... for individual datastores, providing customization.
 
+# Example
 Here is a minimal example of how you would generally use the `shrimp` module.
 
 ```python
@@ -21,6 +22,7 @@ datastore.new_data_model('example_model', default_data={'example':'example'}) #C
 print(datastore.get_data_model('example_model'))
 ```
 
+# Datastore Structure
 This is how your JSON datastore should be structured after creation.
 
 ```json

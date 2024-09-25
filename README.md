@@ -10,6 +10,8 @@ Key features:
 - Commiting to datastores to avoid corruption during runtime.
 - Basic CRUD and batched operations with "data models". (not really lol)
 
+Here is a minimal example of how you would generally use the `shrimp` module.
+
 ```python
 import shrimp
 datastore = shrimp.JSONDataStore('example') #Creates a JSON file in the current working directory with the name "example"

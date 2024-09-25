@@ -2,13 +2,13 @@
 
 The `shrimp` module is a light weight data store handling module.
 It currently is in it's very early stages of development, therefore might be missing some features or diverse choices of data stores.
-
 `shrimp` only supports JSON file datastores as of now.
 
 Key features:
 - Managing multiple datastores at once.
 - Commiting to datastores to avoid corruption during runtime.
 - Basic CRUD and batched operations with "data models". (not really lol)
+- The ability to disable logs, set default data,... for individual datastores, providing customization.
 
 Here is a minimal example of how you would generally use the `shrimp` module.
 
@@ -29,24 +29,7 @@ This is how your JSON datastore should be structured after creation.
     "created_time": "2024-09-25 07:45:10.657994",
     "last_modified": "2024-09-25 07:46:25.127580"
   },
-  "player_data_data": {
-    "player": {
-      "player_metadata": {
-        "status": "active",
-        "created_at": "2024-09-25 07:45:20.489322",
-        "type": "data_model"
-      },
-      "player_data": {
-        "name": "E",
-        "level": 2,
-        "health": 76,
-        "attack": 10,
-        "defense": 5,
-        "inventory": [
-          "Troll Club"
-        ]
-      }
-    }
+  "player_data_data": {}
   }
 }
 ```

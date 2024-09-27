@@ -35,9 +35,4 @@ This is how your JSON datastore should be structured after creation.
 }
 ```
 
-# Installation
-Run "pip install shrimp" and it *might* just work.
-
-```bash
-pip install shrimp
-```
+*this sounded way too AI generated*

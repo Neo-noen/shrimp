@@ -1,7 +1,7 @@
 # shrimp
 
 The `shrimp` module is a light weight data store handling module.
-It currently is in it's very early stages of development, therefore might be missing some features or diverse choices of data stores.
+It currently is in it's very early stages (this is a lie, I am never finishing this) of development, therefore might be missing some features or diverse choices of data stores.
 `shrimp` only supports JSON file datastores as of now.
 
 # Key features:
